@@ -5,7 +5,7 @@ This is NextJS version of the connection-simulation nodejs app, with xState used
 
 (Note: The backend code doesn't create the .csv report files as in the original connection-simulation node app.)
 
-![csn.results.png](https://raw.githubusercontent.com/sroy0101/connection-simulation-nextjs/main/images/csn.results.PNG)
+![csn.results.png](https://raw.githubusercontent.com/sroy0101/connection-simulation-nextjs-xstate/main/images/csn.results.PNG)
 
 ## Getting Started
 1. Clone the project to local server
@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Debugging on VSC
 To debug both frontend and backend in visual Studio Code, run the Next:Full configuration from the configuration drop-down in the debug window of the VCS. 
 
-The VSC launch.json file with debugging configurations for frontend (using the chrome-debugger) and the backend is provided. 
+The VSC launch.json file with debugging configurations for both frontend (using the chrome-debugger) and the backend is provided for running individually or simultaneously. 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
